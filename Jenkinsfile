@@ -1,7 +1,7 @@
 node {
         stage("Git Clone"){
 
-        git credentialsId: 'Git-Hub-Credentials', url: 'https://github.com/ManjunathGR607/Myresume.git'
+        git credentialsId: 'Git-Hub-Credentials', url: 'https://github.com/ManjunathGR607/aboutmanjunathgr.git'
     
         stage("Docker build"){
             sh 'docker version'
